@@ -1,15 +1,19 @@
 # Changeling014
 
-```Changeling - A word of play for 'Challenging'```
+`Changeling - A word of play for 'Challenging'`
 
-```014 - Natural number following 013 (The previous challenge in this course)```
+`014 - Natural number following 013 (The previous challenge in this course)`
 
 ## Links to Repo and deployment📌
 
 🔸 GitHub Repository [link](https://github.com/jmdg1023/Changeling014)
 🔸 Deployment [link]()
 
+## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
 ## User Story 👨
 
@@ -20,8 +24,8 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ```
 
-
 ## What this project does 💡💡💡
+
 ```
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
@@ -58,51 +62,46 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-
 ## Installation
-```npm init
 
+```
 npm install mysql2
-
 npm install sequelize
-
 npm install dotenv
+npm install bcrypt
+npm install connect-session-sequelize
+npm install express
+npm install express-handlebars
+npm install express-session
 ```
 
-
 ## Usage
-Run the following command at the root of your project and answer the prompted questions:
 
-```mysql -u root -p```
+To start the process, go to the deployed site [here](https://warm-beyond-65052.herokuapp.com/)
 
-Enter PW when promted
-
-```source db/schema.sql```
-
-quit
-
-```node seeds index.js```
-
-```npm start```
-
-
+Then create an account or view the first few blogs and comments.
 
 ## Screenshot
-![Screenshot](./)
 
+![Screenshot](./assets/Screenshot-test.jpg)
+![Screenshot](./assets/post.jpg)
 
-
-
-## Learning Resources 🔗
+## Learning Resources
 
 🔸[Dotenv](https://www.npmjs.com/package/dotenv)
+
 🔸[Sequalize](https://www.npmjs.com/package/sequelize)
+
 🔸[Inquirer](https://www.npmjs.com/package/inquirer)
+
 🔸[SQL2](https://www.npmjs.com/package/mysql2)
 
+🔸[Heroku](https://dashboard.heroku.com/)
 
+🔸[jawsDB](https://elements.heroku.com/addons/jawsdb)
 
+🔸[Express](https://www.npmjs.com/package/express)
 
-## License 📜
+## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mecuboi/my-profile-website/blob/main/LICENSE)
