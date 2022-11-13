@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { User, Blog, Comment } = require('../models');
-const withAuth = require('../utils/auth');
+const isAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
 	try {
@@ -53,7 +53,7 @@ router.get('/blog/:id', async (req, res) => {
 	}
 });
 
-router.get('/dashboard', withAuth, async (req, res) => {
+router.get('/dashboard', isAuth, async (req, res) => {
 	try {
 		const userData = await User.findByPk(req.session.user_id, {
 			attributes: {
