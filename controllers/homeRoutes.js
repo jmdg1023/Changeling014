@@ -91,7 +91,7 @@ router.get('/signUp', (req, res) => {
 		res.redirect('/dashboard');
 		return;
 	}
-	res.render('signUp');
+	res.render('signUP');
 });
 
 module.exports = router;
